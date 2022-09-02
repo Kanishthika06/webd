@@ -1,0 +1,21 @@
+.parent > div{
+    background-color: green;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+}
+.parent{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: space-around;*/
+    align-items: flex-start;
+    
+}
+#five{
+    flex-grow: 3;
+    flex-shrink: 2;
+}
